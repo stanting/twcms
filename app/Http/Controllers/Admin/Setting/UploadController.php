@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers\Admin\Setting;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class BaseSettingController extends Controller
+class UploadController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class BaseSettingController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.setting.upload');
     }
 
     /**
